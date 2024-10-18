@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: "Londrina Solid", sans-serif;
+  letter-spacing: 3px;
+}
+
+body{margin:0;
+padding:0;
+box-sizing: border-box;
+background-attachment: fixed;}
+
+.earth{
+  animation: spin 4s infinite linear;
+ 
+}
+
+@keyframes spin{
+  100%{transform: rotate(360deg);}
+}
+
+nav h1{
+  font-family: "Londrina Sketch", sans-serif;;
+}
+
+.rocket{
+  animation: fly 2s forwards linear;
+
+}
+.ufo{
+  animation: ufoFlight 4s forwards linear
+}
+
+@keyframes ufoFlight{
+  10%{translate: 0 -30vh;}
+  30%{translate: -60vw -30vh;}
+  100%{translate: -60vw 13vh;}
+}
+@keyframes fly{
+0%{transform: rotate(180deg);}
+  100%{translate: -75vw 100vh;}
+  100%{transform: rotate(-45deg);}
+}
+
+i{
+  font-size: 2rem;
+cursor: pointer;
+}
+
+
+@media (max-width:767px){
+  body{background-attachment: initial;}
+}

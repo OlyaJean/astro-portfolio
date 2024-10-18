@@ -5,11 +5,14 @@
   font-family: "Londrina Solid", sans-serif;
   letter-spacing: 3px;
 }
-
+html,body{height: 100%;}
 body{margin:0;
 padding:0;
 box-sizing: border-box;
-background-attachment: fixed;}
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
 
 .earth{
   animation: spin 4s infinite linear;
@@ -49,6 +52,6 @@ cursor: pointer;
 }
 
 
-@media (max-width:767px){
-  body{background-attachment: initial;}
+@media only screen and  (max-width:767px){
+  body{background-attachment: scroll;}
 }

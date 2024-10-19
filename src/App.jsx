@@ -12,7 +12,7 @@ function App() {
   const [ufo,setUfo] = useState(false)
 
   return (
-    <div className=" bg-hero bg-cover bg-center bg-fixed pb-5">
+    <div>
    
     <Navbar active = {active} setActive={setActive}/>
     {active? <Introduction/> : ""}

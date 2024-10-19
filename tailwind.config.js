@@ -9,7 +9,9 @@ export default {
       backgroundImage:{
         'hero':'url(./assets/hero.png)'
       },
-    
+    boxShadow:{
+      'btnShadow':' inset 0 0 5px 3px'
+    }
     },
   },
   plugins: [],

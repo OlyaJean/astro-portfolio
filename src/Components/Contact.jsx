@@ -47,7 +47,7 @@ const Contact = () => {
             <input type="tel" name='phone' placeholder='Enter your phone number' required className='rounded-xl bg-sky-100 p-3'/>
             <label>Write your message here:</label>
         <textarea name="message" id="message" placeholder='Enter your message here...' cols={50} rows={5} required className='rounded-xl bg-sky-100 p-3'></textarea>
-        <button type='submit' className='border-[1px] rounded-xl border-blue-900 cursor-pointer shadow-lg active:border-0 active:shadow-none shadow-slate-900'>send</button>
+        <button type='submit' className='rounded-xl cursor-pointer shadow-btnShadow active:border-0 active:shadow-none shadow-sky-200 h-10'>send</button>
         <span>{result}</span>
       </form>
         </div>

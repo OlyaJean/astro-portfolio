@@ -24,7 +24,7 @@ const Navbar = (props) => {
       </ul>
       <section className='flex gap-10 flex-col'>   
       
-         <h1 className='text-5xl sm:text-6xl text-center text-sky-200 mt-44 mx-5'>&lt;Hello World!&gt; <br /> Let's explore my mission!</h1>
+         <h1 className='text-5xl sm:text-6xl text-center text-sky-200 mt-44 mx-5 font-bold'>&lt;Hello World!&gt; <br /> Let's explore my mission!</h1>
      
       </section>
  

@@ -35,6 +35,7 @@ const Contact = () => {
         <a href="https://threads.net/@jo.helloworld"><i class="fa-brands fa-threads"></i></a>
       <a href="https://github.com/OlyaJean"><i class="fa-brands fa-github" ></i></a>
       <a href="https://www.instagram.com/_olya_b__/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/olga-jean-baptiste-8ab9b0313/"><i class="fa-brands fa-linkedin"></i></a>
       </section>
         </div>
 

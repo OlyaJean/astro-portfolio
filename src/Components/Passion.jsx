@@ -7,7 +7,7 @@ const Passion = (props) => {
 
  
   return (
-    <div className='text-sky-200 mx-auto p-5 bg-blue-950 bg-opacity-65 w-[90vw] text-sm lg:text-2xl rounded-xl flex flex-col gap-1 mt-5 relative'>
+    <div className='text-sky-200 mx-auto p-5 bg-blue-950 bg-opacity-65 w-[90vw] text-sm lg:text-2xl rounded-xl flex flex-col gap-1 mt-5 relative mb-5'>
      
       <p>My other passion besides coding is <span className='text-xl lg:text-3xl'>Space</span> .</p>
       <p>It's pretty obvious, right!?</p>

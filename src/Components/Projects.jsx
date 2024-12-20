@@ -23,10 +23,10 @@ const Projects = () => {
      </div></a>
     
 
-    <a href="https://calculator-jean.netlify.app/"><div className='border-[1px] border-blue-200 rounded-xl p-5 my-5 cursor-pointer lg:h-52 lg:w-72'>
-     <p className='text-xl lg:text-2xl underline  text-center'>Calculator</p>
+    <a href="https://avajah.netlify.app/"><div className='border-[1px] border-blue-200 rounded-xl p-5 my-5 cursor-pointer lg:h-52 lg:w-72'>
+     <p className='text-xl lg:text-2xl underline  text-center'>pottery goods</p>
      <br />
-     <p className='text-sm lg:text-lg'>A simple calculator built with JavaScript.</p>
+     <p className='text-sm lg:text-lg'>A full stack, e-commerce website built with Next.js usong MongoDB.</p>
      </div></a>
    
 
